@@ -5,15 +5,13 @@ import linkedin from '../../assets/linkedin.svg'
 import githubIcon from '../../assets/github.svg'
 import whatsapp from '../../assets/whatsapp.svg'
 import telegram from '../../assets/telegram.svg'
-// import instagramIcon from '../../assets/instagram.png'
-// import discordIcon from '../../assets/discord.png'
 
 export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>Vinayak</span>
-        <span>Singh</span>
+        <span>Ahmed</span>
+        <span>Elsayed</span>
       </a>
       <div>
         <p>
@@ -51,21 +49,7 @@ export function Footer() {
         >
           <img src={telegram} alt="telegram" />
         </a>
-        {/* <a
-          href="https://www.instagram.com"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={instagramIcon} alt="Instagram" />
-        </a> */}
-
-        {/* <a
-          href="https://discord.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={discordIcon} alt="Discord" />
-        </a> */}
+       
       </div>
     </Container>
   )
